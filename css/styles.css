@@ -1,0 +1,132 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Open Sans', Arial, Tahoma, sans-serif;
+    margin: 0;
+    color: white;
+    background-color: #080f28;
+    background: linear-gradient(to bottom, #0b1435, rgb(18, 24, 83));
+}
+
+a {
+    text-decoration: none;
+    color: rgba(252, 252, 252, 0.719);
+}
+
+li {
+    list-style: none;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+    background-color: black;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background: rgb(17, 17, 17);
+}
+
+body::-webkit-scrollbar-thumb:active {
+    background-color: rgb(39, 39, 39);
+}
+
+body::-webkit-scrollbar-track {
+    background: #334868;
+    border-radius: 6px;
+}
+
+/* inicio */
+.title {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 50px;
+}
+
+.container-projects {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+.img-projects {
+    /* width: 650px; */
+    height: 400px;
+    display: flex;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.img-projects:hover {
+    padding: 2px;
+    transition: all 0.9s;
+    filter: brightness(60%);
+}
+.title-projects {
+    text-align: center;
+}
+.links-projects {
+    text-align: center;
+}
+@media (max-width: 780px) {
+    .title {
+        text-align: center;
+        margin: 50px 0;
+        font-size: 32px;
+    }
+    .title-projects {
+        font-size: 20px;
+    }
+    .container-projects {
+        width: 95%;
+        margin: 0 auto;
+        margin-bottom: 80px;
+    }
+    .img-projects {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        margin: 0 auto;
+        border-radius: 5px;
+    }
+}
+
+/* footer */
+.footer {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 40px;
+    text-decoration: none;
+    padding-top: 20px;
+    border-top: 2px solid rgb(173, 173, 173);
+}
+.footer a:hover {
+    color: rgb(52, 236, 196);
+    letter-spacing: 0.1px;
+}
+.social-networks__footer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 0;
+    margin-right: 40px;
+}
+.icon:hover {
+    stroke: #64ffda;
+}
+@media (max-width: 768px) {
+    .footer {
+        font-size: 16px;
+        padding-bottom: 20px;
+    }
+}
