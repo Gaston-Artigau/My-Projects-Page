@@ -123,6 +123,27 @@ body::-webkit-scrollbar-track {
 }
 .icon:hover {
     stroke: #64ffda;
+    transition: all 0.7s;
+}
+.icon-tabler-brand-twitter:hover {
+    stroke: #00acee;
+    filter: drop-shadow(0 0 10px #00acee) drop-shadow(0 0 20px #00acee) drop-shadow(0 0 40px #00acee);
+}
+.icon-tabler-brand-instagram:hover {
+    stroke: #d6249f;
+    filter: drop-shadow(0 0 10px #d6249f) drop-shadow(0 0 20px #fd5949) drop-shadow(0 0 40px #fdf497);
+}
+.icon-tabler-brand-linkedin:hover {
+    stroke: #0e76a8;
+    filter: drop-shadow(0 0 10px #0e76a8) drop-shadow(0 0 20px #0e76a8) drop-shadow(0 0 40px #0e76a8);
+}
+.icon-tabler-brand-github:hover {
+    stroke: #171515;
+    filter: drop-shadow(0 0 15px #ffffff) drop-shadow(0 0 25px #171515) drop-shadow(0 0 40px #000000);
+}
+.icon-tabler-brand-web:hover {
+    stroke: #6deb5d;
+    filter: drop-shadow(0 0 10px #6deb5d) drop-shadow(0 0 20px #6deb5d) drop-shadow(0 0 40px #6deb5d);
 }
 @media (max-width: 768px) {
     .footer {
