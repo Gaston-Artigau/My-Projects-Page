@@ -65,10 +65,11 @@ body::-webkit-scrollbar-track {
     display: flex;
     margin: 0 auto;
     border-radius: 5px;
+    box-shadow: 2px 3px 10px rgb(12, 12, 12);
 }
 .img-projects:hover {
-    padding: 2px;
-    transition: all 0.9s;
+    padding: 1px;
+    transition: all 0.5s;
     filter: brightness(60%);
 }
 .title-projects {
@@ -110,6 +111,9 @@ body::-webkit-scrollbar-track {
     padding-top: 20px;
     border-top: 2px solid rgb(173, 173, 173);
 }
+.footer a {
+    transition: all .4s;
+}
 .footer a:hover {
     color: rgb(52, 236, 196);
     letter-spacing: 0.1px;
@@ -120,6 +124,9 @@ body::-webkit-scrollbar-track {
     gap: 10px;
     margin-bottom: 0;
     margin-right: 40px;
+}
+.icon {
+    transition: all .7s;
 }
 .icon:hover {
     stroke: #64ffda;
